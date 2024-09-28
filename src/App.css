@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Reem Kufi", sans-serif !important;
+  }
+  nav{
+    background-color: rgba(137, 43, 226, 0.123);
+  }
+
+  .ven{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+
+  .text{
+    text-align: justify;
+  }
+  .logo-img{
+    width: 12%;
+    margin-top: 15px;
+  }
+.groupall{
+  background-color: rgba(137, 43, 226, 0.123);
+  padding-bottom: 30px;
+}
+.space{
+  padding-top: 20px;
+  margin: auto;
+  margin-top: -8px;
+}
+
+.card{
+  width: 60%;
+  margin: auto;
+  box-shadow: 0px 7px 15px rgba(0,0,0,0.5);
+  margin-bottom: 50px; 
+  background-image: url(assets/3.jpg);
+}
+
+
+.btn-outline-success{
+  color: blueviolet !important;
+  border: 1px blueviolet solid !important;
+}
+
+.btn-outline-success:hover{
+  background-color: blueviolet !important;
+  border: blueviolet !important;
+  color: white !important;
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  margin: 10px 0;
+}
+
+/* Style for individual images */
+.image-container img {
+  width: 100%;
+  max-width: 350px; /* Adjust the maximum width as needed */
+  height: auto;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.amenities{
+  display: flex;
+  margin-left: 5px;
+}
+.icons {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.icons svg {
+  font-size: 1.5rem;
+  margin-right: 1.25rem;
+  color: #585858;
+}
+
+.feedbackall{
+  padding-top: 40px;
+  background-color: rgba(137, 43, 226, 0.123);
+}
+
+.feed{
+  color: rgba(0, 0, 0, 0.877);
+  font-size: 1.7em;
+  font-weight: bold;
+}
+.bold{
+  color: rgba(0, 0, 0, 0.877);
+  font-weight: bold;
+}
+.feedback{
+  padding-bottom: 30px;
+}
+
+@media (max-width: 1000px) {
+  .logo-img{
+    width: 30%;
+
+  }
+  .card{
+    width: 65%;
+  }
+  .card-img-top{
+    height: 190px !important;
+}
+  .image-container {
+    width: 100%;
+    margin: auto;
+  }
+  .amenities{
+    flex-direction: column;
+  }
+
+  .feed{
+    color: rgb(30, 11, 48);
+    font-size: 1.2em;
+  }
+
+}
